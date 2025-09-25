@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a7</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.13"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-[#f5f5f5]">
+    <!-- header -->
+    <header>
+        <div class="bg-white shadow-sm">
+            <nav class="max-w-[1180px] mx-auto px-5 py-3 flex justify-between items-center">
+                <h2 class="font-bold text-2xl">CS - Ticket System</h2>
+                <div class="flex justify-between items-center gap-5">
+                    <ul class="hidden text-sm md:flex justify-between items-center gap-5">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Changelog</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Download</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <button
+                        class="h-fit bg-linear-to-r from-[#642ee4] to-[#9f62f2] pl-2 pr-3 py-1.5 text-sm rounded-sm text-white"><i
+                            class="fa-solid fa-plus text-[11px]"></i> New Ticket</button>
+                </div>
+            </nav>
+        </div>
+
+        <!-- banner -->
+        <div class="max-w-[1180px] mx-auto p-5 w-full flex justify-center items-center gap-3">
+            <div
+                class="w-full flex flex-col justify-center items-center gap-3 rounded-lg bg-[url(./asset/vector1.png),url(./asset/vector2.png),linear-gradient(to_right,#642ee4,#9f62f2)] bg-[position:center_left,center_right] bg-no-repeat py-10">
+                <p class="text-xl text-white">In Progress</p>
+                <h1 class="text-white font-medium text-5xl">0</h1>
+            </div>
+            <div
+                class="w-full flex flex-col justify-center items-center gap-3 rounded-lg bg-[url(./asset/vector1.png),url(./asset/vector2.png),linear-gradient(to_right,#54cf68,#00827b)] bg-[position:center_left,center_right] bg-no-repeat py-10">
+                <p class="text-xl text-white">Resolved</p>
+                <h1 class="text-white font-medium text-5xl">0</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main class="max-w-[1180px] mx-auto p-5 flex flex-col-reverse md:flex-row gap-5">
+
+        <!-- Customer Ticket    -->
+        <div class="flex-[70%]">
+            <h2 class="font-bold text-xl text-[#34485A] mb-5">Customer Tickets</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-4">
+                <!-- customers -->
+
+                <!-- card 1 -->
+                <div class="bg-white p-4 shadow-md rounded-md">
+                    <div class="flex justify-between items-center">
+                        <h3 class="font-bold text-[#34485A]">Login Issues - Can't Access Account</h3>
+
+                        <div class="flex justify-center items-center gap-1 w-fit px-1.5 py-1 rounded-2xl bg-[#b9f8cf]">
+                            <div class="w-2.5 h-2.5 rounded-full bg-green-600"></div>
+                            <p class="text-xs font-medium text-[#0b5e06]">Open</p>
+                            <!-- status -->
+                        </div>
+
+                    </div>
+
+                    <p class="text-[#627382] text-sm">Customer is unable to log in to their account. They've tried
+                        resetting their
+                        password multiple times but still...</p>
+
+                    <div class="flex items-center justify-between text-sm text-[#627382]">
+
+                        <div class="flex gap-3">
+                            <p>#1001</p>
+                            <p class="text-red-500">High Priority</p>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <p>John Smith</p>
+                            <div class="flex items-center gap-1 justify-center">
+                                <i class="fa-solid fa-calendar"></i>
+                                <p>1/15/2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="bg-white p-4 shadow-md rounded-md">
+                    <div class="flex justify-between items-center">
+                        <h3 class="font-bold text-[#34485A]">Login Issues - Can't Access Account</h3>
+
+                        <div class="flex justify-center items-center gap-1 w-fit px-1.5 py-1 rounded-2xl bg-[#b9f8cf]">
+                            <div class="w-2.5 h-2.5 rounded-full bg-green-600"></div>
+                            <p class="text-xs font-medium text-[#0b5e06]">Open</p>
+                            <!-- status -->
+                        </div>
+
+                    </div>
+
+                    <p class="text-[#627382] text-sm">Customer is unable to log in to their account. They've tried resetting their
+                        password multiple times but still...</p>
+
+                    <div class="flex items-center justify-between text-sm text-[#627382]">
+
+                        <div class="flex gap-3">
+                            <p>#1001</p>
+                            <p class="text-red-500">High Priority</p>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <p>John Smith</p>
+                            <div class="flex items-center gap-1 justify-center">
+                                <i class="fa-solid fa-calendar"></i>
+                                <p>1/15/2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Task Status and resolved task -->
+        <div class="flex-[30%]">
+            <!-- task status -->
+            <div class="mb-8">
+                <h2 class="font-bold text-xl text-[#34485A]">Task Status</h2>
+                <p class="text-[#34485A]">Select a ticket to add to Task Status</p>
+
+                
+                <div class="mt-3">
+                    <!-- Task card -->
+                    <div class="bg-white p-3 shadow-md rounded-md mb-3">
+                        <h3 class="font-bold text-[#34485A]">Login Issues - Can't Access Account</h3>
+                        <p class="mb-2 text-xs text-[#34485A]">Customer is unable to log in to their account. They've tried resetting their
+                        password multiple times but still...</p>
+                        <button class="text-white bg-green-500 rounded-md w-full py-1 h-fit">Complete</button>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+
+            <!-- resolved task -->
+            <div class="mb-8">
+                <h2 class="font-bold text-xl text-[#34485A] ">Resolved Task</h2>
+                <p class="text-[#34485A]">No resolved tasks yet.</p>
+
+                <div class="mt-3">
+                    
+
+                    <div class="bg-white p-3 shadow-md rounded-md mb-3">
+                        <h3 class="font-bold text-[#34485A]">Login Issues - Can't Access Account</h3>
+                        <p class="mb-2 text-xs text-[#34485A]">Customer is unable to log in to their account. They've tried resetting their
+                        password multiple times but still...</p>
+                        <p class="text-green-500 font-bold"><i class="fa-solid fa-check"></i> Completed</p>
+                    </div>
+
+                    <div class="bg-white p-3 shadow-md rounded-md mb-3">
+                        <h3 class="font-bold text-[#34485A]">Login Issues - Can't Access Account</h3>
+                        <p class="mb-2 text-xs text-[#34485A]">Customer is unable to log in to their account. They've tried resetting their
+                        password multiple times but still...</p>
+                        <p class="text-green-500 font-bold"><i class="fa-solid fa-check"></i> Completed</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
